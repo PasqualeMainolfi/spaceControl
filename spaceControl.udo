@@ -40,7 +40,7 @@ xout(krad)
 
     opcode toDeg, k, k
 krad xin
-kdeg = krad * 360/$M_PI
+kdeg = krad * 180/$M_PI
 xout(kdeg)
     endop
 
